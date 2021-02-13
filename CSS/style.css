@@ -1,0 +1,451 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+/* Header Section */
+header{
+    padding: 70px;
+    padding-top: 0;
+}
+/* First Nav */
+.f-head{
+    padding-top: 20px;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    margin: 0;
+}
+.fa-phone{
+    color: white;
+    margin-left: 20px;
+}
+.fa-envelope{
+    margin-left: 25px;
+    color: white;
+}
+.f-cap{
+    margin-left: 20px;
+}
+.f-cap2{
+    margin-left: 90px;
+    padding-right: 5px;
+    color: white;
+}
+.f-cap3{
+    color: white;
+    margin-left: 10px;
+}
+.f-cap4{
+    color: white;
+    margin-left: 10px;
+}
+.f-cap5{
+    color: white;
+    margin-left: 50px;
+}
+/* Second Nav */
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: white;
+}
+.logo-cap{
+    font-size: 16px;
+    font-weight: lighter;
+}
+.nav-item{
+    color: white !important;
+}
+/* Background */
+.hero{
+    background-color: rgb(104, 192, 104);
+}
+
+.hero-cap{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin: 20px;
+}
+.hero-cap2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+/* first Pic */
+.back{
+    width: 100%;
+    height: 50vh;
+}
+.content{
+    background: url(./images/back.jpg);
+    background-size: cover;
+    height: 60vh;
+    background-position: center;
+}
+/* Second Section (Lorem) */
+
+.main-cap{
+    font-size: 30px;
+    margin: 40px auto 30px;
+}
+.main p{
+    font-size: 20px;
+}
+.content1{
+    background: url(./images/back2.jpeg);
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+}
+.main-cap{
+    margin: auto 60px;
+}
+.main-cap2{
+    font-size: 20px;
+    margin: 30px 60px ;
+}
+/* Third Section (Share Article) */
+.obj-cap{
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 250px;
+}
+.obj button{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    float: right;
+}
+
+
+.btn1{
+    background-color: rgb(209, 226, 243);
+    margin-right: 25px;
+}
+.fa-linkedin-in{
+    color: rgb(0, 104, 200);
+    margin-right: 20px;
+    font-size: 25px;
+}
+.obj-cap2{
+    font-size: 20px;
+    font-weight: 300;
+}
+.btn2{
+    margin-right: 20px;
+    background: rgb(206, 203, 248);
+}
+.fa-facebook-f{
+    color: rgb(16, 119, 214);
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.btn3{
+    margin-right: 20px;
+    background-color: rgb(152, 205, 255);
+}
+.fa-twitter{
+    color: rgb(0, 132, 255);
+    font-size: 25px;
+    margin-right: 20px;
+}
+.btn4{
+    background-color: rgb(162, 255, 162);
+    margin-right: 20px;
+
+}
+.fa-whatsapp{
+    color: rgb(104, 192, 104);
+    font-size: 25px;
+}
+/* Forth Section (Card) */
+.card-hero{
+    margin-top: 90px;
+}
+.card-cap{
+    font-size: 40px;
+    margin: auto 50px;
+}
+.card-main{
+    border-radius: 15px;
+    border: 1px solid grey;
+    margin: 10px;
+    outline: none;
+}
+.card-tittle{
+    font-size: 30px;
+    margin: 20px 30px;
+}
+.cardo{
+    color: rgb(104, 192, 104);
+    font-size: 20px;
+    margin: 10px 30px;
+}
+.card-text{
+    margin: 20px 30px;
+    font-size: 18px;
+}
+.card-main a{
+    color: rgb(104, 192, 104);
+    margin: 30px;
+}
+.card-main3{
+    align-items: center;
+   
+}
+
+.card-main2 div{
+    margin-top: 10px;
+}
+/* Form Section  */
+.form{
+    margin:60px 40px ;
+}
+.form-cap{
+    font-size: 40px;
+    font-family: monospace;
+}
+.form input{
+    border: rgb(11, 68, 37) solid 2px;
+    border-radius: 4px;
+    display: flex;
+}
+.input1{
+    padding: 15px;
+}
+.input2{
+    padding: 15px;
+}
+.input3{
+    padding: 40px;
+}
+.form button{
+    background-color: rgb(11, 68, 37);
+    padding: 20px 40px;
+    font-size:20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+/* Comment Section */
+.form2-cap{
+    font-size: 40px;
+    font-family: monospace;
+    margin: 40px;
+}
+.form2-capp button
+{
+    float: right;
+    margin-top: -100px;
+    background-color: white;
+    border: rgb(11, 68, 37) solid 2px;
+    color: rgb(11, 68, 37);
+    padding: 20px 40PX;
+    border-radius: 50PX ;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.for2-main img{
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.for2-main span{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.for2-main p{
+    margin-left: 130px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.for2-main a{
+    color: rgb(11, 68, 37);
+    font-size: 22px;
+    margin-left: 120px;
+}
+/* Update and subscribe section */
+.n-footer{
+    background-color: seagreen;
+    position: relative;
+    z-index: 1;
+    height: 300PX;
+    width: 1800px;
+    margin:auto 150px;
+    display: flex;
+
+}   
+.n-footer p{
+    font-size: 50px;
+    color: rgb(235, 235, 235);
+    margin: 30px;
+}
+.n-footer input{
+    float: right;
+    padding: 40px 190px;
+    border: rgb(235, 235, 235) solid 1px;
+    position: relative;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background: transparent;
+    border-radius: 50px;
+    font-size: 25px;
+    height: 40px;
+    margin-top: 120px;
+}
+.n-footer input::placeholder{
+    color:rgb(235, 235, 235);
+    width: 100px;
+}
+.n-footer button{
+    float: right;
+    position: absolute;
+    left: 85%;
+    top: 29%;
+    transform: translate(85 29%);
+    padding: 20px 35px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+/* first footer  */
+.footer{
+    margin-top: -90px;
+    background-color: black;
+
+    padding: 20px;
+    height: 560px;
+}
+.footer-cap{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-top: 120px;
+}
+.footer-cap2{
+    color: rgb(253, 235, 203);
+    text-align: center;
+    width: 860px;
+    left: 70%;
+    transform: translate(70%);
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+/* footer1 */
+/* .f-btn1{
+    align-items: center;
+    margin-left:900px;
+    border-radius: 8px;
+    padding-top: -10px;
+    margin-top: 50px;
+}
+.fa-apple{
+    padding-top: 10px; ;
+} */
+   
+/* .footer button{
+      
+
+}
+.f-btn1{
+    margin-left:900px;
+    background: rgb(253, 235, 203);
+    padding: auto 20px;
+    border-radius: 8px;
+    height: 70px;
+}
+.fa-apple{
+    font-size: 50px;
+}
+.f-btn-cap{
+    margin-top: 10px;
+    background-color: red;
+}
+.f-btn-cap p{
+    padding-bottom: 10px;
+}
+.f-btn2{
+    background: rgb(253, 235, 203);
+    padding: 1px 20px;
+    border-radius: 8px;
+}
+.fa-google-play{
+    font-size: 50px;
+}
+.f-btn-cap{
+    margin-left: 10px;
+    margin-top: -100px;
+} */
+
+/* footer 2 */
+.footer2{
+    background-color: black;
+    color: white;
+    padding:  50px 40px;
+}
+
+
+
+/* Media Query */
+  
+
+@media(max-width: 1024px){
+    .main{
+        margin: 90px 60px;
+    }
+    
+    
+    .n-footer{
+        display: flex;
+    }
+}
+
+@media(max-width: 780px){
+    
+    
+    .n-footer{
+        display: none;
+    }
+}
+
+@media(max-width: 580px){
+    .f-head{
+        display: none;
+    }
+    .navbar-toggler{
+        margin-right: -50px;
+    }
+    .hero-cap{
+        font-size: 40px;
+        margin: auto -20px;   
+    }
+    .main-cap{
+       margin-top: 40px;
+    }
+    
+    
+    .card-main3{
+        left: 50%;
+        transform: translate(50%);
+    }
+        
+    }
+
+
+    .n-footer{
+        display: none;
+    }

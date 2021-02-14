@@ -1,17 +1,17 @@
 *{
    margin: 0;
    padding: 0; 
+   box-sizing: border-box;
 }
 /* Header Section */
 header{
-    padding: 70px;
-    padding-top: 0;
+    width: 100%;
 }
 /* First Nav */
 .f-head{
-    padding-top: 20px;
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
     margin: 0;
+    width: 100%;
 }
 .fa-phone{
     color: white;
@@ -47,29 +47,42 @@ header{
     font-weight: bold;
     margin-left: 10px;
     color: white;
+    position: relative;
 }
 .logo-cap{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: lighter;
+    position: absolute;
+    top: 80%;
+    right: 2%;
 }
 .nav-item{
-    color: white !important;
+    font-size: 15px;
+    padding: 20px 15px  20px 15px;
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: white;
 }
 /* Background */
 .hero{
     background-color: rgb(104, 192, 104);
+    height: auto;
 }
-
 .hero-cap{
-    color: white;
-    font-size: 60px;
-    text-align: center;
-    margin: 20px;
+    position: relative;
 }
-.hero-cap2{
-    text-align: center;
+.hero-cap-title{
+    padding-left: 10%;
+    padding-right: 10%;
     color: white;
-    font-size: 20px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;   
+}
+.hero-cap-description{
+    color: white;
+    font-size: 15px;
+    padding-bottom: 50px;
 }
 /* first Pic */
 .back{
@@ -80,16 +93,22 @@ header{
     background: url(./images/back.jpg);
     background-size: cover;
     height: 60vh;
+    width: 100%;
     background-position: center;
+    margin-top: -5vh;
 }
 /* Second Section (Lorem) */
-
+.main{
+    padding-left: 10%;
+    padding-right: 10%;
+}
 .main-cap{
-    font-size: 30px;
-    margin: 40px auto 30px;
+    font-family: sans-serif;   
 }
 .main p{
-    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    margin-bottom: 30px;
 }
 .content1{
     background: url(./images/back2.jpeg);
@@ -98,37 +117,33 @@ header{
     width: 100%;
     background-position: center;
 }
-.main-cap{
-    margin: auto 60px;
-}
-.main-cap2{
-    font-size: 20px;
-    margin: 30px 60px ;
-}
+
 /* Third Section (Share Article) */
-.obj-cap{
-    margin-left: 90px;
-    margin-bottom: 20px;
-    font-size: 30px;
-    width: 250px;
+.obj{
+    padding-left: 15%;
+    padding-right: 15%;
+    clear: both;
 }
+.obj-cap{
+    float: left;
+}
+
 .obj button{
-    padding: 10px;
-    border-radius: 50px;
-    border: none;
-    outline: none;
     float: right;
 }
+.obj button{
+    font-size: 10px;
+    padding-right: 10px;
 
-
+}
 .btn1{
     background-color: rgb(209, 226, 243);
-    margin-right: 25px;
+    
 }
 .fa-linkedin-in{
     color: rgb(0, 104, 200);
-    margin-right: 20px;
-    font-size: 25px;
+    
+    
 }
 .obj-cap2{
     font-size: 20px;
@@ -140,7 +155,6 @@ header{
 }
 .fa-facebook-f{
     color: rgb(16, 119, 214);
-    font-size: 25px;
     margin-right: 20px;
 }
 
@@ -150,7 +164,6 @@ header{
 }
 .fa-twitter{
     color: rgb(0, 132, 255);
-    font-size: 25px;
     margin-right: 20px;
 }
 .btn4{
